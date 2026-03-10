@@ -4,6 +4,22 @@
 
 This file provides Claude Code (claude.ai/code) specific guidance for working with the Quick PARA Plugin.
 
+## Non-Claude Agents: Workspace Isolation Rules
+
+**If you are NOT Claude Code** (e.g., Gemini CLI, Codex, Copilot, Cursor, or any other LLM agent), you MUST follow these isolation rules to avoid interfering with Claude agent work:
+
+1. **Always work in a git worktree.** Never modify files on the current branch directly. Create a worktree before making any changes:
+   ```bash
+   git worktree add .worktrees/<your-agent-name>-<feature> -b <your-agent-name>/<feature-description>
+   ```
+2. **Always commit to a feature branch.** Your branch name must include your agent identifier (e.g., `gemini/fix-typo`, `codex/add-tests`, `copilot/refactor-utils`). Never commit to `main` or any branch you did not create.
+3. **Never force-push, rebase, or modify branches you did not create.** Treat all existing branches as read-only references.
+4. **Clean up after yourself.** When your work is complete, leave the worktree in place for human review. Do not merge your own branches.
+5. **Follow all other rules in this file.** The conventions below (commit format, secrets management, attribution, etc.) apply to all agents equally.
+
+> Claude Code agents are exempt from the worktree requirement because they are the primary agents for this workspace and coordinate directly with the user.
+
+
 ## Quick Start
 
 ```bash
