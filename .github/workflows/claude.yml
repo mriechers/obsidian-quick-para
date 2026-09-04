@@ -18,6 +18,6 @@ jobs:
       issues: read
       id-token: write
       actions: read
-    uses: mriechers/github-actions/.github/workflows/claude-interactive.yml@689b8174f7a885dc201556aa56bf862bd2623207  # v1
+    uses: mriechers/github-actions/.github/workflows/claude-interactive.yml@191a3e919bfa22c0c5cf2b85cdab4f4290651237  # v1
     secrets:
       claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
