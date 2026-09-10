@@ -1,3 +1,14 @@
+> [!WARNING]
+> **Archived legacy codebase — not maintained, not installable.**
+>
+> `obsidian-para-visualizer` was superseded by **obsidian-quick-para**. This branch exists only to preserve
+> the original source and its full commit history; it receives no fixes,
+> no releases, and no support. Nothing here is wired into the active plugin.
+>
+> For working code, see the `main` branch of this repository.
+
+---
+
 # PARA Visualizer Plugin
 
 An interactive visualization plugin for Obsidian that brings your PARA-organized vault to life with beautiful charts, graphs, and insights. Includes both **vault-level** and **note-specific** visualizations.
