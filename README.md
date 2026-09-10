@@ -1,3 +1,16 @@
+> [!WARNING]
+> **Archived legacy codebase - not maintained, not installable.**
+>
+> `obsidian-email-to-para` was an experiment that did not survive. Dropped. It introduced too much noise into the vault and was overbuilt for the value it delivered.
+>
+> This branch preserves the original source and its full commit history
+> for reference only. It receives no fixes, no releases, and no support,
+> and shares no code with Quick PARA.
+>
+> For working code, see the `main` branch of this repository.
+
+---
+
 # Email to PARA Sync Plugin
 
 > ⚠️ **DEPRECATED:** This OAuth-based Obsidian plugin approach has been superseded by a simpler Cloudflare Email Worker architecture. See [cloudflare-email-to-obsidian](https://github.com/mriechers/cloudflare-email-to-obsidian) for the new approach, which eliminates OAuth complexity by using email forwarding rules instead.
