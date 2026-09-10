@@ -1,3 +1,16 @@
+> [!WARNING]
+> **Archived legacy codebase - not maintained, not installable.**
+>
+> `obsidian-vault-mcp` was an experiment that did not survive. Superseded by a skill-based approach that reads the vault through the Local REST API plugin instead of a bespoke MCP server.
+>
+> This branch preserves the original source and its full commit history
+> for reference only. It receives no fixes, no releases, and no support,
+> and shares no code with Quick PARA.
+>
+> For working code, see the `main` branch of this repository.
+
+---
+
 # Obsidian Vault MCP Server
 
 [![Build](https://github.com/MarkOnFire/obsidian-vault-mcp/actions/workflows/build.yml/badge.svg)](https://github.com/MarkOnFire/obsidian-vault-mcp/actions/workflows/build.yml)
