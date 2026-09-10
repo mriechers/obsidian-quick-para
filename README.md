@@ -158,6 +158,15 @@ src/
 3. Make your changes and run `npm run build` to verify.
 4. Submit a pull request.
 
+## Lineage
+
+Quick PARA absorbed an earlier plugin. Its source and full commit history are
+preserved on a branch here, **for archival reference only** - that code is not
+maintained, not installable, and not wired into this plugin:
+
+- [`legacy/para-visualizer`](../../tree/legacy/para-visualizer) - PARA Visualizer.
+  Its vault- and note-level visualizations were merged into Quick PARA's sidebar view.
+
 ## License
 
 [MIT](LICENSE) — Copyright (c) 2026 Mark Riechers
