@@ -1,3 +1,16 @@
+> [!WARNING]
+> **Archived legacy codebase - not maintained, not installable.**
+>
+> `obsidian-inbox` was an experiment that did not survive. Dropped alongside email-to-para, for the same reason: too much vault noise for too little value.
+>
+> This branch preserves the original source and its full commit history
+> for reference only. It receives no fixes, no releases, and no support,
+> and shares no code with Quick PARA.
+>
+> For working code, see the `main` branch of this repository.
+
+---
+
 # Obsidian Inbox
 
 Route emails from multiple addresses into your Obsidian vault as structured markdown notes — tasks, newsletters, and agent messages each get their own pipeline.
