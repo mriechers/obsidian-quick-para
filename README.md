@@ -160,12 +160,24 @@ src/
 
 ## Lineage
 
-Quick PARA absorbed an earlier plugin. Its source and full commit history are
-preserved on a branch here, **for archival reference only** - that code is not
-maintained, not installable, and not wired into this plugin:
+Quick PARA is the experiment that survived. Several others didn't, and their source
+and full commit history are preserved here on branches - **archival reference only**.
+None of them is maintained, installable, or wired into this plugin, and none shares
+code with `main`.
 
 - [`legacy/para-visualizer`](../../tree/legacy/para-visualizer) - PARA Visualizer.
-  Its vault- and note-level visualizations were merged into Quick PARA's sidebar view.
+  **Absorbed:** its vault- and note-level visualizations were merged into Quick PARA's
+  sidebar view.
+- [`legacy/vault-mcp`](../../tree/legacy/vault-mcp) - an MCP server giving Claude read
+  access to a PARA vault. **Superseded:** the same job is now done by Claude skills
+  reading the vault through Obsidian's Local REST API plugin, with no bespoke server
+  to maintain.
+- [`legacy/email-to-para`](../../tree/legacy/email-to-para) - synced email into
+  PARA-organized notes. **Dropped:** it introduced too much noise into the vault and
+  was overbuilt for the value it delivered.
+- [`legacy/obsidian-inbox`](../../tree/legacy/obsidian-inbox) - a Cloudflare worker for
+  triaging email into the vault. **Dropped** alongside `email-to-para`, for the same
+  reason.
 
 ## License
 
