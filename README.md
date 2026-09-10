@@ -158,6 +158,17 @@ src/
 3. Make your changes and run `npm run build` to verify.
 4. Submit a pull request.
 
+## Companion: agent skills
+
+Quick PARA maintains the `para` frontmatter property. If you drive your vault with a
+coding agent, [**obsidian-PARA-skills**](https://github.com/mriechers/obsidian-PARA-skills)
+is the other half: a set of Agent Skills that read that property as ground truth, so
+Claude Code, Codex, or OpenCode can file, classify, and query notes without guessing at
+your folder layout.
+
+The two are independent installs - the plugin writes the structure, the skills read it.
+
+
 ## Lineage
 
 Quick PARA is the experiment that survived. Several others didn't, and their source
