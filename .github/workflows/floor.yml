@@ -11,4 +11,4 @@ jobs:
   floor:
     permissions:
       contents: read
-    uses: mriechers/github-actions/.github/workflows/floor.yml@405eb37cefee3e63efb94b86b195cdd161b6106c # v1
+    uses: mriechers/github-actions/.github/workflows/floor.yml@52c3d2d0b8a6ece65700f05a9994189961f3c0d4 # v1
