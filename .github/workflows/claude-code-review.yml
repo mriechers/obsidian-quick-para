@@ -12,7 +12,7 @@ jobs:
       pull-requests: write
       issues: write
       id-token: write
-    uses: mriechers/github-actions/.github/workflows/claude-review.yml@405eb37cefee3e63efb94b86b195cdd161b6106c # v1
+    uses: mriechers/github-actions/.github/workflows/claude-review.yml@52c3d2d0b8a6ece65700f05a9994189961f3c0d4 # v1
     with:
       github_app_id: ${{ vars.REVIEW_APP_ID }}
       review_label: claude-review
