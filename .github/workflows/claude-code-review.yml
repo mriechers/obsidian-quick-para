@@ -1,8 +1,12 @@
 name: Claude Code Review
 
+# On demand: a review runs when the `claude-review` label is added to a pull
+# request, not when one is opened. Review locally first (`/code-review`) and
+# add the label when a pull request deserves a second read. To review again
+# after a push, remove the label and add it back.
 on:
   pull_request:
-    types: [opened, ready_for_review, reopened, labeled]
+    types: [labeled]
 
 jobs:
   review:
@@ -12,7 +16,7 @@ jobs:
       pull-requests: write
       issues: write
       id-token: write
-    uses: mriechers/github-actions/.github/workflows/claude-review.yml@56929a1f72f158699746e15d45dd206a2fe39e99 # v1
+    uses: mriechers/github-actions/.github/workflows/claude-review.yml@e38512b2f3e573d63352cc712fd8dcc7b5212f38 # v1
     with:
       github_app_id: ${{ vars.REVIEW_APP_ID }}
       review_label: claude-review
